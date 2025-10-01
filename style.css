@@ -3,7 +3,13 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: #000000;
+  background-image: url(/Pictures/fondo\ mate.jpg); /* Ruta de la imagen */
+  background-size: cover;            /* Ajusta la imagen para cubrir toda la pantalla */
+  background-position: center;       /* Centra la imagen */
+  background-repeat: no-repeat;      /* Evita que se repita */
+  height: 100vh;                     /* Que ocupe toda la ventana */
+  margin: 0; 
+  background: -opa;
   font-family: Arial, sans-serif;
 }
 
@@ -44,3 +50,4 @@ button:hover {
   background: #444;
   color: white;
 }
+
